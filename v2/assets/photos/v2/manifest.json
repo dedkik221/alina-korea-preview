@@ -1,0 +1,305 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "slot": "v2.author.361510.square",
+      "file": "/assets/photos/v2/derived/361510/seoul-blossom-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361510_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Цветущая улица в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361510.landscape",
+      "file": "/assets/photos/v2/derived/361510/seoul-blossom-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361510_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Цветущая улица в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361510.portrait",
+      "file": "/assets/photos/v2/derived/361510/seoul-blossom-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361510_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Цветущая улица в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361510.editorial",
+      "file": "/assets/photos/v2/derived/361510/seoul-blossom-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361510_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Цветущая улица в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361511.square",
+      "file": "/assets/photos/v2/derived/361511/busan-colourful-hillside-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361511_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Красочный склон в Пусане",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361511.landscape",
+      "file": "/assets/photos/v2/derived/361511/busan-colourful-hillside-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361511_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Красочный склон в Пусане",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361511.portrait",
+      "file": "/assets/photos/v2/derived/361511/busan-colourful-hillside-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361511_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Красочный склон в Пусане",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361511.editorial",
+      "file": "/assets/photos/v2/derived/361511/busan-colourful-hillside-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361511_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Красочный склон в Пусане",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361513.square",
+      "file": "/assets/photos/v2/derived/361513/seoul-intersection-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361513_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Городской перекрёсток в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361513.landscape",
+      "file": "/assets/photos/v2/derived/361513/seoul-intersection-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361513_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Городской перекрёсток в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361513.portrait",
+      "file": "/assets/photos/v2/derived/361513/seoul-intersection-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361513_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Городской перекрёсток в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361513.editorial",
+      "file": "/assets/photos/v2/derived/361513/seoul-intersection-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361513_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Городской перекрёсток в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361516.square",
+      "file": "/assets/photos/v2/derived/361516/seoul-riverside-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361516_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Набережная и городской силуэт Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361516.landscape",
+      "file": "/assets/photos/v2/derived/361516/seoul-riverside-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361516_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Набережная и городской силуэт Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361516.portrait",
+      "file": "/assets/photos/v2/derived/361516/seoul-riverside-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361516_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Набережная и городской силуэт Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361516.editorial",
+      "file": "/assets/photos/v2/derived/361516/seoul-riverside-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361516_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Набережная и городской силуэт Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361517.square",
+      "file": "/assets/photos/v2/derived/361517/seoul-palace-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361517_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Дворец и сад в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361517.landscape",
+      "file": "/assets/photos/v2/derived/361517/seoul-palace-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361517_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Дворец и сад в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361517.portrait",
+      "file": "/assets/photos/v2/derived/361517/seoul-palace-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361517_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Дворец и сад в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361517.editorial",
+      "file": "/assets/photos/v2/derived/361517/seoul-palace-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361517_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Дворец и сад в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361520.square",
+      "file": "/assets/photos/v2/derived/361520/seoul-river-sign-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361520_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Панорама набережной Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361520.landscape",
+      "file": "/assets/photos/v2/derived/361520/seoul-river-sign-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361520_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Панорама набережной Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361520.portrait",
+      "file": "/assets/photos/v2/derived/361520/seoul-river-sign-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361520_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Панорама набережной Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361520.editorial",
+      "file": "/assets/photos/v2/derived/361520/seoul-river-sign-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361520_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Панорама набережной Сеула",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361523.square",
+      "file": "/assets/photos/v2/derived/361523/seoul-blossom-walk-square.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361523_.jpg",
+      "targetRatio": "1:1",
+      "kind": "author-photo",
+      "alt": "Прогулка среди цветущих деревьев в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361523.landscape",
+      "file": "/assets/photos/v2/derived/361523/seoul-blossom-walk-landscape.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361523_.jpg",
+      "targetRatio": "16:9",
+      "kind": "author-photo",
+      "alt": "Прогулка среди цветущих деревьев в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361523.portrait",
+      "file": "/assets/photos/v2/derived/361523/seoul-blossom-walk-portrait.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361523_.jpg",
+      "targetRatio": "9:16",
+      "kind": "author-photo",
+      "alt": "Прогулка среди цветущих деревьев в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.author.361523.editorial",
+      "file": "/assets/photos/v2/derived/361523/seoul-blossom-walk-editorial.webp",
+      "source": "/assets/photos/kseniya-2026-07-17/361523_.jpg",
+      "targetRatio": "3:4",
+      "kind": "author-photo",
+      "alt": "Прогулка среди цветущих деревьев в Сеуле",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.decorative.consultation-notebook.landscape",
+      "file": "/assets/photos/v2/generated/consultation-notebook-decorative.webp",
+      "source": "generated: GPT Image 2",
+      "targetRatio": "16:9",
+      "kind": "illustration",
+      "alt": "Декоративная иллюстрация блокнота для консультации",
+      "generated": true,
+      "decorative": true
+    },
+    {
+      "slot": "v2.decorative.jeju-landscape.landscape",
+      "file": "/assets/photos/v2/generated/jeju-landscape-decorative.webp",
+      "source": "generated: GPT Image 2",
+      "targetRatio": "16:9",
+      "kind": "illustration",
+      "alt": "Декоративная иллюстрация вулканического побережья Чеджу",
+      "generated": true,
+      "decorative": true
+    }
+  ]
+}
