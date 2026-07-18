@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "3907c86d0e20e803dfd2266b7458eae3d9b20136",
+  "sourceCommit": "b4d8f1e7101d9d4c525d7f224f35f84b690afe18",
   "dirty": false,
   "variants": {
     "original": "/alina-korea-preview",
-    "ai": "/alina-korea-preview/ai"
+    "ai": "/alina-korea-preview/ai",
+    "compact": "/alina-korea-preview/compact"
   }
 }
