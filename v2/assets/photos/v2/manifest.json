@@ -300,6 +300,76 @@
       "alt": "Декоративная иллюстрация вулканического побережья Чеджу",
       "generated": true,
       "decorative": true
+    },
+    {
+      "slot": "v2.revision.maps.food",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-food.webp",
+      "source": "generated: GPT Image 2",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Рестораны и кафе в Корее",
+      "generated": true,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.maps.shopping",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-shopping.webp",
+      "source": "360990_ author photo; deterministic crop",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Магазины и шопинг в Корее",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.maps.attraction",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-attraction.webp",
+      "source": "360989_ author photo; deterministic crop",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Достопримечательности Кореи",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.maps.park",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-park.webp",
+      "source": "360991_ author photo; orientation normalized; deterministic crop",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Парки и красивые места Кореи",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.maps.coffee",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-coffee.webp",
+      "source": "generated: GPT Image 2",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Кофейни в Корее",
+      "generated": true,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.maps.useful",
+      "file": "/assets/photos/v2/revision-2026-07-19/maps-category-useful.webp",
+      "source": "360984_ author photo; deterministic crop",
+      "targetRatio": "1:1",
+      "kind": "editorial-photo",
+      "alt": "Другие полезные локации в Корее",
+      "generated": false,
+      "decorative": false
+    },
+    {
+      "slot": "v2.revision.consultation.notebook",
+      "file": "/assets/photos/v2/revision-2026-07-19/consultation-notebook-neutral.webp",
+      "source": "generated: GPT Image 2",
+      "targetRatio": "16:9",
+      "kind": "editorial-photo",
+      "alt": "Нейтральный блокнот для консультации по поездке",
+      "generated": true,
+      "decorative": true
     }
   ]
 }
