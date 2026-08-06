@@ -1,5 +1,6 @@
 name: M1.7 WebP optimization and legacy cleanup
 
+# Triggered after workflow registration.
 on:
   push:
     branches: [main]
