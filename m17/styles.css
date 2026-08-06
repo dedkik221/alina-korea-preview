@@ -152,3 +152,15 @@
   }
 }
 /* END M17-TASK 16-travel-grid-bbox */
+
+/* BEGIN M17-TASK 17-kpop-grid-bbox */
+@media (min-width: 1200px) {
+  .m17-kpop-paper-sheet .product-grid {
+    position: absolute;
+    left: 60px;
+    top: 130px;
+    width: 670px;
+    margin: 0;
+  }
+}
+/* END M17-TASK 17-kpop-grid-bbox */
