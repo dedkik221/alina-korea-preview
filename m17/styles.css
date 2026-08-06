@@ -132,3 +132,11 @@
   .m17-kpop-wax-seal { left: 1100px; right: auto; top: 50px; width: 80px; height: 80px; transform: none; }
 }
 /* END M17-TASK 14-kpop-stamp-cluster */
+
+/* BEGIN M17-TASK 15-section-flow */
+@media (min-width: 1200px) {
+  .about { margin-top: -120px; }
+  .travel-section { margin-top: -50px; }
+  .contact { margin-top: -90px; }
+}
+/* END M17-TASK 15-section-flow */
