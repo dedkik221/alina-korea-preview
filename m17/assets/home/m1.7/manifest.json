@@ -1,0 +1,373 @@
+{
+  "version": "M1.7-production-assets-v1",
+  "created_at": "2026-08-05",
+  "selection_manifest": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/06_REWORK_REVIEW_2026_08_05/final-approved-selection-manifest.json",
+  "asset_count": 45,
+  "approved_assets": 44,
+  "portrait_assets": 1,
+  "omitted_asset_ids": [
+    "about.faint_seal_lineart"
+  ],
+  "assets": [
+    {
+      "asset_id": "about.note",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-note-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-note.png",
+      "public_path": "/assets/home/m1.7/about-note.png",
+      "source_sha256": "3f9941850b088aa9d8ee33d818277d188320e5b33e9924470097d6576b646939",
+      "production_sha256": "3f9941850b088aa9d8ee33d818277d188320e5b33e9924470097d6576b646939"
+    },
+    {
+      "asset_id": "about.stamp",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-stamp-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-stamp.png",
+      "public_path": "/assets/home/m1.7/about-stamp.png",
+      "source_sha256": "b20728ed6a49caa0c75bd8bfe05a9efe971b10e57910bb83a4b53253efa28dfb",
+      "production_sha256": "b20728ed6a49caa0c75bd8bfe05a9efe971b10e57910bb83a4b53253efa28dfb"
+    },
+    {
+      "asset_id": "about.paper_sheet",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-paper-sheet-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-paper-sheet.png",
+      "public_path": "/assets/home/m1.7/about-paper-sheet.png",
+      "source_sha256": "43abe6be440a0ed7b5c572e3e36cf8b4df3ef7af8f8cbd28108fb6fb7d0d1f11",
+      "production_sha256": "43abe6be440a0ed7b5c572e3e36cf8b4df3ef7af8f8cbd28108fb6fb7d0d1f11"
+    },
+    {
+      "asset_id": "about.flower_cluster",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-flower-cluster-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-flower-cluster.png",
+      "public_path": "/assets/home/m1.7/about-flower-cluster.png",
+      "source_sha256": "c10a8961deafa7bccb53583a6a0f8c4da6b9348adf0d194c35c414bf644dc3e6",
+      "production_sha256": "c10a8961deafa7bccb53583a6a0f8c4da6b9348adf0d194c35c414bf644dc3e6"
+    },
+    {
+      "asset_id": "about.tape",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-tape-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-tape.png",
+      "public_path": "/assets/home/m1.7/about-tape.png",
+      "source_sha256": "6bd22e9f6f1afd77a7758616ce780239b0bd150b61563e7cd22f0480d5561e54",
+      "production_sha256": "6bd22e9f6f1afd77a7758616ce780239b0bd150b61563e7cd22f0480d5561e54"
+    },
+    {
+      "asset_id": "about.icon_bag",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-icon-bag-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-icon-bag.png",
+      "public_path": "/assets/home/m1.7/about-icon-bag.png",
+      "source_sha256": "7f818ed348ea78cedc173bbf9b7082a6715562cfbdf977f4864ed603896d7941",
+      "production_sha256": "7f818ed348ea78cedc173bbf9b7082a6715562cfbdf977f4864ed603896d7941"
+    },
+    {
+      "asset_id": "about.icon_heart",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-icon-heart-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-icon-heart.png",
+      "public_path": "/assets/home/m1.7/about-icon-heart.png",
+      "source_sha256": "df817da258ff3ee7b30d9a797e842f50d4d5d644c01ea7d632da2b80a25bb5b5",
+      "production_sha256": "df817da258ff3ee7b30d9a797e842f50d4d5d644c01ea7d632da2b80a25bb5b5"
+    },
+    {
+      "asset_id": "about.icon_graduation",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-icon-graduation-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-icon-graduation.png",
+      "public_path": "/assets/home/m1.7/about-icon-graduation.png",
+      "source_sha256": "e0b50b220df93c6258876c4e956a3ea7119fab85844f67e54b52c656b33a9283",
+      "production_sha256": "e0b50b220df93c6258876c4e956a3ea7119fab85844f67e54b52c656b33a9283"
+    },
+    {
+      "asset_id": "about.icon_airplane",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-icon-airplane-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-icon-airplane.png",
+      "public_path": "/assets/home/m1.7/about-icon-airplane.png",
+      "source_sha256": "2c3a68ac89d746684407d76a36dd498970f6ed8029f71637f7ca9fd40139cbce",
+      "production_sha256": "2c3a68ac89d746684407d76a36dd498970f6ed8029f71637f7ca9fd40139cbce"
+    },
+    {
+      "asset_id": "about.icon_music",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/01_ОБО_АЛИНЕ/01_АССЕТЫ_ГОТОВЫЕ/about-icon-music-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-icon-music.png",
+      "public_path": "/assets/home/m1.7/about-icon-music.png",
+      "source_sha256": "5702406debdd19f631d1ba12f472e1d7e2a2d6e88c3b3a3b559bae8744a4499a",
+      "production_sha256": "5702406debdd19f631d1ba12f472e1d7e2a2d6e88c3b3a3b559bae8744a4499a"
+    },
+    {
+      "asset_id": "travel.paper_sheet",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-paper-sheet-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-paper-sheet.png",
+      "public_path": "/assets/home/m1.7/travel-paper-sheet.png",
+      "source_sha256": "8088f46531c688b4666026beeda8965200fccfb1e65687b15d9f68f9934419d3",
+      "production_sha256": "8088f46531c688b4666026beeda8965200fccfb1e65687b15d9f68f9934419d3"
+    },
+    {
+      "asset_id": "travel.map",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-map-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-map.png",
+      "public_path": "/assets/home/m1.7/travel-map.png",
+      "source_sha256": "7164d772f6202c8fb93b36dce3549cf9bff54509016eb128852226f6a996199f",
+      "production_sha256": "7164d772f6202c8fb93b36dce3549cf9bff54509016eb128852226f6a996199f"
+    },
+    {
+      "asset_id": "travel.postcard_back",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-postcard-back-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-postcard-back.png",
+      "public_path": "/assets/home/m1.7/travel-postcard-back.png",
+      "source_sha256": "f52156cda95fe53818cacd08823aea2efdd1fd83e705cd30a58ce64cf62f6dab",
+      "production_sha256": "f52156cda95fe53818cacd08823aea2efdd1fd83e705cd30a58ce64cf62f6dab"
+    },
+    {
+      "asset_id": "travel.postcard_photo",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-postcard-photo-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-postcard-photo.png",
+      "public_path": "/assets/home/m1.7/travel-postcard-photo.png",
+      "source_sha256": "7aaf25581a9d27bd65d11695990078a0cefbfa8869daf6ef2c4e80eefb5f45a3",
+      "production_sha256": "7aaf25581a9d27bd65d11695990078a0cefbfa8869daf6ef2c4e80eefb5f45a3"
+    },
+    {
+      "asset_id": "travel.polaroid_01",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-polaroid-01-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-polaroid-01.png",
+      "public_path": "/assets/home/m1.7/travel-polaroid-01.png",
+      "source_sha256": "ff7e1df7753d7a9e27db84b6551f4f8d5e50e36c65cf81371733a95be40e25a2",
+      "production_sha256": "ff7e1df7753d7a9e27db84b6551f4f8d5e50e36c65cf81371733a95be40e25a2"
+    },
+    {
+      "asset_id": "travel.polaroid_02",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-polaroid-02-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-polaroid-02.png",
+      "public_path": "/assets/home/m1.7/travel-polaroid-02.png",
+      "source_sha256": "8d24bc0dde6882953414a2ff66ee0252224ad16de0c37069e17614d309cfc857",
+      "production_sha256": "8d24bc0dde6882953414a2ff66ee0252224ad16de0c37069e17614d309cfc857"
+    },
+    {
+      "asset_id": "travel.ticket",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-ticket-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-ticket.png",
+      "public_path": "/assets/home/m1.7/travel-ticket.png",
+      "source_sha256": "0863e0457f2a89af34214a4731498ffffbad5170cfa7bda36385879ca8022742",
+      "production_sha256": "0863e0457f2a89af34214a4731498ffffbad5170cfa7bda36385879ca8022742"
+    },
+    {
+      "asset_id": "travel.handwritten_note",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-note-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-handwritten-note.png",
+      "public_path": "/assets/home/m1.7/travel-handwritten-note.png",
+      "source_sha256": "79c7a6b9b14771d92a24893ac17ed16bdf85a76228674203cd75c06e8ab3fdb4",
+      "production_sha256": "79c7a6b9b14771d92a24893ac17ed16bdf85a76228674203cd75c06e8ab3fdb4"
+    },
+    {
+      "asset_id": "travel.doodles",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-doodles-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-doodles.png",
+      "public_path": "/assets/home/m1.7/travel-doodles.png",
+      "source_sha256": "845069ab844a8ba8d50b5f301f9c9a5722c7b3e19637106364a3615c7314529c",
+      "production_sha256": "845069ab844a8ba8d50b5f301f9c9a5722c7b3e19637106364a3615c7314529c"
+    },
+    {
+      "asset_id": "travel.tape",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-tape-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-tape.png",
+      "public_path": "/assets/home/m1.7/travel-tape.png",
+      "source_sha256": "6d0c7a295e8fdf5bc52c0acf7692bf197a1e0b7e3b63a75007094301a509fb54",
+      "production_sha256": "6d0c7a295e8fdf5bc52c0acf7692bf197a1e0b7e3b63a75007094301a509fb54"
+    },
+    {
+      "asset_id": "travel.postage_stamp",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-postage-stamp-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-postage-stamp.png",
+      "public_path": "/assets/home/m1.7/travel-postage-stamp.png",
+      "source_sha256": "61dfe784edbed7da8df720d9113f56482f411ebb006e7ffa4b937f405a633848",
+      "production_sha256": "61dfe784edbed7da8df720d9113f56482f411ebb006e7ffa4b937f405a633848"
+    },
+    {
+      "asset_id": "travel.paper_scrap",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-paper-scrap-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-paper-scrap.png",
+      "public_path": "/assets/home/m1.7/travel-paper-scrap.png",
+      "source_sha256": "2511869b48ab4e25ef36a511fbc2f01e6a05bd8676eabab0ed79340b78fdaef1",
+      "production_sha256": "2511869b48ab4e25ef36a511fbc2f01e6a05bd8676eabab0ed79340b78fdaef1"
+    },
+    {
+      "asset_id": "travel.airplane_doodle",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/02_ПУТЕШЕСТВИЯ_ПО_КОРЕЕ/01_АССЕТЫ_ГОТОВЫЕ/travel-airplane-doodle-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-airplane-doodle.png",
+      "public_path": "/assets/home/m1.7/travel-airplane-doodle.png",
+      "source_sha256": "93924b336759a9a1ec660aeb74502b5fe1f872c3a9b740f92b484a09f5e4f459",
+      "production_sha256": "93924b336759a9a1ec660aeb74502b5fe1f872c3a9b740f92b484a09f5e4f459"
+    },
+    {
+      "asset_id": "kpop.paper_sheet",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-paper-sheet-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-paper-sheet.png",
+      "public_path": "/assets/home/m1.7/kpop-paper-sheet.png",
+      "source_sha256": "56803961f102977c5fbb26cdbcb4c68821a8ebc29ab3b6c932d721a520583a62",
+      "production_sha256": "56803961f102977c5fbb26cdbcb4c68821a8ebc29ab3b6c932d721a520583a62"
+    },
+    {
+      "asset_id": "kpop.polaroid_main",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-polaroid-main-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-polaroid-main.png",
+      "public_path": "/assets/home/m1.7/kpop-polaroid-main.png",
+      "source_sha256": "637c0140375302c16bdb6441c18b4538911723f6c81332c693fc1629e9e236f7",
+      "production_sha256": "637c0140375302c16bdb6441c18b4538911723f6c81332c693fc1629e9e236f7"
+    },
+    {
+      "asset_id": "kpop.polaroid_small",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-polaroid-small-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-polaroid-small.png",
+      "public_path": "/assets/home/m1.7/kpop-polaroid-small.png",
+      "source_sha256": "85ffbdc3e12ee64d80300acd5ce2c8a92c612aa2a4d5de544cbc8eba6abc6309",
+      "production_sha256": "85ffbdc3e12ee64d80300acd5ce2c8a92c612aa2a4d5de544cbc8eba6abc6309"
+    },
+    {
+      "asset_id": "kpop.polaroid_upper_lightstick",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-polaroid-upper-lightstick-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-polaroid-upper-lightstick.png",
+      "public_path": "/assets/home/m1.7/kpop-polaroid-upper-lightstick.png",
+      "source_sha256": "8bbd47ed40f4f35be79aa84b7f2a76807764d2bea38336c58ffa5adf5513550a",
+      "production_sha256": "8bbd47ed40f4f35be79aa84b7f2a76807764d2bea38336c58ffa5adf5513550a"
+    },
+    {
+      "asset_id": "kpop.polaroid_crowd",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-polaroid-crowd-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-polaroid-crowd.png",
+      "public_path": "/assets/home/m1.7/kpop-polaroid-crowd.png",
+      "source_sha256": "04045f38a93360d59e75bd740f84e844f0d240d562861279a7c894c54863c257",
+      "production_sha256": "04045f38a93360d59e75bd740f84e844f0d240d562861279a7c894c54863c257"
+    },
+    {
+      "asset_id": "kpop.ticket",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-ticket-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-ticket.png",
+      "public_path": "/assets/home/m1.7/kpop-ticket.png",
+      "source_sha256": "979de52d2f98949cd7dc5b4d638a36b5ded143fb4aa07b07cd8b670d0a92f336",
+      "production_sha256": "979de52d2f98949cd7dc5b4d638a36b5ded143fb4aa07b07cd8b670d0a92f336"
+    },
+    {
+      "asset_id": "kpop.wax_seal",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-wax-seal-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-wax-seal.png",
+      "public_path": "/assets/home/m1.7/kpop-wax-seal.png",
+      "source_sha256": "c729d41b8c596299b2dfff8665e70e1749502f2cdd3481335cd78e2c6b4b5c6e",
+      "production_sha256": "c729d41b8c596299b2dfff8665e70e1749502f2cdd3481335cd78e2c6b4b5c6e"
+    },
+    {
+      "asset_id": "kpop.postage_cluster",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-postage-cluster-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-postage-cluster.png",
+      "public_path": "/assets/home/m1.7/kpop-postage-cluster.png",
+      "source_sha256": "1c3e8359186220b12a437bc2ea8ec05a14e66aba3127fd651ffb2294b27a6524",
+      "production_sha256": "1c3e8359186220b12a437bc2ea8ec05a14e66aba3127fd651ffb2294b27a6524"
+    },
+    {
+      "asset_id": "kpop.tape",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-tape-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-tape.png",
+      "public_path": "/assets/home/m1.7/kpop-tape.png",
+      "source_sha256": "e9e0779ddcf5a1e88e3a9bc067e063b82a7c164fa38e3894cbf41b7f2a42899b",
+      "production_sha256": "e9e0779ddcf5a1e88e3a9bc067e063b82a7c164fa38e3894cbf41b7f2a42899b"
+    },
+    {
+      "asset_id": "kpop.doodle_star",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-doodle-star-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-doodle-star.png",
+      "public_path": "/assets/home/m1.7/kpop-doodle-star.png",
+      "source_sha256": "e917a27eb94779d17765ce46e4ae9db1f4a1da12e0264c905feca7d686358852",
+      "production_sha256": "e917a27eb94779d17765ce46e4ae9db1f4a1da12e0264c905feca7d686358852"
+    },
+    {
+      "asset_id": "kpop.doodle_cloud",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-doodle-cloud-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-doodle-cloud.png",
+      "public_path": "/assets/home/m1.7/kpop-doodle-cloud.png",
+      "source_sha256": "846cb083d00b14dc273fee969147d138fb670d9e72ed322d6a96046894a2cb28",
+      "production_sha256": "846cb083d00b14dc273fee969147d138fb670d9e72ed322d6a96046894a2cb28"
+    },
+    {
+      "asset_id": "kpop.paper_scrap",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/kpop-paper-scrap-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-paper-scrap.png",
+      "public_path": "/assets/home/m1.7/kpop-paper-scrap.png",
+      "source_sha256": "f40b1079b152f081a28ef77e5842409f3aba666934ecca0576a2f811f7cbb4e0",
+      "production_sha256": "f40b1079b152f081a28ef77e5842409f3aba666934ecca0576a2f811f7cbb4e0"
+    },
+    {
+      "asset_id": "telegram.icon",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/03_К-ПОП_И_ТЕЛЕГРАМ/01_АССЕТЫ_ГОТОВЫЕ/telegram-icon-alpha-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/telegram-icon.png",
+      "public_path": "/assets/home/m1.7/telegram-icon.png",
+      "source_sha256": "f482cb7f3f41c588c55297b2f1f0b0696f3e3d21166492ec22c77fe68d674327",
+      "production_sha256": "f482cb7f3f41c588c55297b2f1f0b0696f3e3d21166492ec22c77fe68d674327"
+    },
+    {
+      "asset_id": "about.city_lineart",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/about-city-lineart-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-city-lineart.png",
+      "public_path": "/assets/home/m1.7/about-city-lineart.png",
+      "source_sha256": "9d5fbc4947f7b870678524dffc4881d43e5c9075a1a272fb30ce8beac3716e88",
+      "production_sha256": "9d5fbc4947f7b870678524dffc4881d43e5c9075a1a272fb30ce8beac3716e88"
+    },
+    {
+      "asset_id": "travel.card_map_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/travel-card-map-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-card-map-image.png",
+      "public_path": "/assets/home/m1.7/travel-card-map-image.png",
+      "source_sha256": "063e7da23e435ad6231688af2c455a540d9fd34dbab543ee5e22ab53180ff2e9",
+      "production_sha256": "063e7da23e435ad6231688af2c455a540d9fd34dbab543ee5e22ab53180ff2e9"
+    },
+    {
+      "asset_id": "travel.card_consultation_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/travel-card-consultation-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-card-consultation-image.png",
+      "public_path": "/assets/home/m1.7/travel-card-consultation-image.png",
+      "source_sha256": "371ace8ca4773cc9c3994763334f370fe4afca88cb6d8f24a2162c2a5527717d",
+      "production_sha256": "371ace8ca4773cc9c3994763334f370fe4afca88cb6d8f24a2162c2a5527717d"
+    },
+    {
+      "asset_id": "travel.card_route_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/travel-card-route-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/travel-card-route-image.png",
+      "public_path": "/assets/home/m1.7/travel-card-route-image.png",
+      "source_sha256": "21fdcfe2666270124706bc1e92e1904424a8de4f7a22d46f94027a4bce6ff8eb",
+      "production_sha256": "21fdcfe2666270124706bc1e92e1904424a8de4f7a22d46f94027a4bce6ff8eb"
+    },
+    {
+      "asset_id": "kpop.card_concert_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/kpop-card-concert-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-card-concert-image.png",
+      "public_path": "/assets/home/m1.7/kpop-card-concert-image.png",
+      "source_sha256": "87dcbfcbbbb4d1340d32dc68e8d5d06c7f551175302a7ce0f96d5301dbb3215f",
+      "production_sha256": "87dcbfcbbbb4d1340d32dc68e8d5d06c7f551175302a7ce0f96d5301dbb3215f"
+    },
+    {
+      "asset_id": "kpop.card_route_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/kpop-card-route-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-card-route-image.png",
+      "public_path": "/assets/home/m1.7/kpop-card-route-image.png",
+      "source_sha256": "bc58438f125eba29e1bad2316b8b89cdda7c64a23f60d9726840352052890e0e",
+      "production_sha256": "bc58438f125eba29e1bad2316b8b89cdda7c64a23f60d9726840352052890e0e"
+    },
+    {
+      "asset_id": "kpop.card_consultation_image",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/kpop-card-consultation-image-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/kpop-card-consultation-image.png",
+      "public_path": "/assets/home/m1.7/kpop-card-consultation-image.png",
+      "source_sha256": "4622a61d339abfb58042a7666649830c57e7c7f61c4708032f24a50e6b233d45",
+      "production_sha256": "4622a61d339abfb58042a7666649830c57e7c7f61c4708032f24a50e6b233d45"
+    },
+    {
+      "asset_id": "telegram.lineart",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/nanobanana-assets/ПАКЕТ_АССЕТОВ_ПО_БЛОКАМ_03/05_REWORK_2026_08_05/alpha/telegram-lineart-rework-v02-alpha.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/telegram-lineart.png",
+      "public_path": "/assets/home/m1.7/telegram-lineart.png",
+      "source_sha256": "2b9c42ca662a25eab761b7436150b28cd4c6f3a82ebccc9183a622fec653b3c6",
+      "production_sha256": "2b9c42ca662a25eab761b7436150b28cd4c6f3a82ebccc9183a622fec653b3c6"
+    },
+    {
+      "asset_id": "about.portrait_photo",
+      "source_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/references/source-photos/portrait-candidates/alina-concert-portrait-4x5-v01.png",
+      "production_path": "/Volumes/1tbssd/OPENCOD/alina-korea-site-next/assets/home/m1.7/about-portrait-photo.png",
+      "public_path": "/assets/home/m1.7/about-portrait-photo.png",
+      "source_sha256": "3cb182b9ec5019c5e0091b246e65a5201e8f4d1ae2c6136aebdf4643d26c66b2",
+      "production_sha256": "3cb182b9ec5019c5e0091b246e65a5201e8f4d1ae2c6136aebdf4643d26c66b2"
+    }
+  ]
+}
