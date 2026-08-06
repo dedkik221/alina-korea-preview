@@ -2,7 +2,7 @@ name: M1.7 live Pages QA
 
 on:
   workflow_run:
-    workflows: ["pages-build-deployment"]
+    workflows: ["pages build and deployment"]
     types: [completed]
 
 permissions:
