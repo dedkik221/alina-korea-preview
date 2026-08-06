@@ -77,3 +77,15 @@
   .contact-handle { margin-left: 75px; }
 }
 /* END M17-TASK 08-telegram-content */
+
+/* BEGIN M17-TASK 09-header-frame */
+@media (min-width: 1200px) {
+  .site-header {
+    top: 24px;
+    left: 160px;
+    right: auto;
+    width: 1120px;
+    min-height: 81px;
+  }
+}
+/* END M17-TASK 09-header-frame */
