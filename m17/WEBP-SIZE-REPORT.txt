@@ -1,0 +1,5 @@
+Converted assets: 45
+PNG source bytes: 47051789
+WebP delivery bytes: 17209742
+Saved bytes: 29842047
+Reduction: 63.42%

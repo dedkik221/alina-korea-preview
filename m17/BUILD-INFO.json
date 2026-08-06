@@ -2,7 +2,9 @@
   "preview": "M1.7",
   "source_repository": "dedkik221/alina-site-version-2026-08-06",
   "source_branch": "preview-m17",
-  "source_commit": "88eaee1ba1d937bf4070f52c27c67db6dca3ad93",
+  "source_commit": "4d0448ff0ac572d63ce54632c866b7ddde9e53b8",
   "published_path": "/m17/",
-  "robots": "noindex,nofollow"
+  "robots": "noindex,nofollow",
+  "last_tuning_task": "20-public-webp-delivery",
+  "delivery_format": "webp"
 }

@@ -427,9 +427,9 @@ h3 a:hover, h3 a:focus-visible { color: var(--pink-deep); }
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.m17-about-paper-sheet { background-image: url('assets/home/m1.7/about-paper-sheet.png'); }
-.m17-travel-paper-sheet { background-image: url('assets/home/m1.7/travel-paper-sheet.png'); }
-.m17-kpop-paper-sheet { background-image: url('assets/home/m1.7/kpop-paper-sheet.png'); }
+.m17-about-paper-sheet { background-image: url('assets/home/m1.7/about-paper-sheet.webp'); }
+.m17-travel-paper-sheet { background-image: url('assets/home/m1.7/travel-paper-sheet.webp'); }
+.m17-kpop-paper-sheet { background-image: url('assets/home/m1.7/kpop-paper-sheet.webp'); }
 .m17-about-paper-sheet::before,
 .m17-travel-paper-sheet::before,
 .m17-kpop-paper-sheet::before { display: none; }

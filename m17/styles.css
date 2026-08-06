@@ -115,7 +115,7 @@
     height: 160px;
     content: "";
     pointer-events: none;
-    background: url('assets/home/m1.7/travel-map.png') center / cover no-repeat;
+    background: url('assets/home/m1.7/travel-map.webp') center / cover no-repeat;
   }
 }
 /* END M17-TASK 12-travel-small-map-fragment */
@@ -165,3 +165,7 @@
   }
 }
 /* END M17-TASK 18-about-facts-bbox */
+
+/* BEGIN M17-TASK 20-public-webp-delivery */
+/* WebP delivery only; no visual geometry change. */
+/* END M17-TASK 20-public-webp-delivery */
