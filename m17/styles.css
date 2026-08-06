@@ -24,3 +24,30 @@
   }
 }
 /* END M17-TASK 01-geometry-normalize */
+
+/* BEGIN M17-TASK 02-about-decor */
+@media (min-width: 1200px) {
+  .about-note.m17-about-note {
+    top: 235px;
+    right: -15px;
+    bottom: auto;
+    width: 185px;
+    height: 165px;
+  }
+
+  .about-stamp.m17-about-stamp {
+    top: 70px;
+    right: 125px;
+    width: 95px;
+    height: 95px;
+  }
+
+  .about-flowers.m17-about-flower-cluster {
+    top: 235px;
+    right: -40px;
+    bottom: auto;
+    width: 195px;
+    height: 210px;
+  }
+}
+/* END M17-TASK 02-about-decor */
