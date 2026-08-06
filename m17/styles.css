@@ -43,23 +43,9 @@
 
 /* BEGIN M17-TASK 05-travel-product-row */
 @media (min-width: 1200px) {
-  .m17-travel-paper-sheet .product-grid {
-    width: 750px;
-    margin-left: 5px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-  }
-
-  .m17-travel-paper-sheet .product-card:nth-child(n) {
-    height: 260px;
-    transform: none;
-  }
-
-  .m17-travel-paper-sheet .media-placeholder[data-asset-id] {
-    height: 82px;
-    min-height: 82px;
-  }
-
+  .m17-travel-paper-sheet .product-grid { width: 750px; margin-left: 5px; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .m17-travel-paper-sheet .product-card:nth-child(n) { height: 260px; transform: none; }
+  .m17-travel-paper-sheet .media-placeholder[data-asset-id] { height: 82px; min-height: 82px; }
   .m17-travel-paper-sheet .card-content { padding: 10px 12px; }
   .m17-travel-paper-sheet .card-topline { margin-bottom: 6px; }
   .m17-travel-paper-sheet h3 { min-height: 42px; margin-bottom: 6px; font-size: 1.15rem; }
@@ -68,3 +54,19 @@
   .m17-travel-paper-sheet .text-cta { font-size: .54rem; }
 }
 /* END M17-TASK 05-travel-product-row */
+
+/* BEGIN M17-TASK 06-kpop-product-row */
+@media (min-width: 1200px) {
+  .m17-kpop-paper-sheet .product-grid {
+    width: 670px;
+    margin-left: 32px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .m17-kpop-paper-sheet .product-card:nth-child(n) {
+    height: 235px;
+    transform: none;
+  }
+}
+/* END M17-TASK 06-kpop-product-row */
