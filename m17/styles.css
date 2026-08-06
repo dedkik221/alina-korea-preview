@@ -103,3 +103,19 @@
   .background-blend-night { top: 1320px; }
 }
 /* END M17-TASK 11-background-zones */
+
+/* BEGIN M17-TASK 12-travel-small-map-fragment */
+@media (min-width: 1200px) {
+  .travel-section::before {
+    position: absolute;
+    left: 125px;
+    top: 210px;
+    z-index: 5;
+    width: 210px;
+    height: 160px;
+    content: "";
+    pointer-events: none;
+    background: url('assets/home/m1.7/travel-map.png') center / cover no-repeat;
+  }
+}
+/* END M17-TASK 12-travel-small-map-fragment */
