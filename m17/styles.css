@@ -143,24 +143,25 @@
 
 /* BEGIN M17-TASK 16-travel-grid-bbox */
 @media (min-width: 1200px) {
-  .m17-travel-paper-sheet .product-grid {
-    position: absolute;
-    left: 65px;
-    top: 100px;
-    width: 750px;
-    margin: 0;
-  }
+  .m17-travel-paper-sheet .product-grid { position: absolute; left: 65px; top: 100px; width: 750px; margin: 0; }
 }
 /* END M17-TASK 16-travel-grid-bbox */
 
 /* BEGIN M17-TASK 17-kpop-grid-bbox */
 @media (min-width: 1200px) {
-  .m17-kpop-paper-sheet .product-grid {
+  .m17-kpop-paper-sheet .product-grid { position: absolute; left: 60px; top: 130px; width: 670px; margin: 0; }
+}
+/* END M17-TASK 17-kpop-grid-bbox */
+
+/* BEGIN M17-TASK 18-about-facts-bbox */
+@media (min-width: 1200px) {
+  .m17-about-paper-sheet .facts-grid {
     position: absolute;
-    left: 60px;
-    top: 130px;
-    width: 670px;
+    left: 30px;
+    top: 335px;
+    width: 965px;
+    height: 75px;
     margin: 0;
   }
 }
-/* END M17-TASK 17-kpop-grid-bbox */
+/* END M17-TASK 18-about-facts-bbox */
