@@ -140,3 +140,15 @@
   .contact { margin-top: -90px; }
 }
 /* END M17-TASK 15-section-flow */
+
+/* BEGIN M17-TASK 16-travel-grid-bbox */
+@media (min-width: 1200px) {
+  .m17-travel-paper-sheet .product-grid {
+    position: absolute;
+    left: 65px;
+    top: 100px;
+    width: 750px;
+    margin: 0;
+  }
+}
+/* END M17-TASK 16-travel-grid-bbox */
