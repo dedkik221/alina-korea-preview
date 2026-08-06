@@ -6,140 +6,65 @@
 @media (min-width: 1200px) {
   .m17-about-paper-sheet,
   .m17-travel-paper-sheet,
-  .m17-kpop-paper-sheet {
-    transform: none;
-  }
-
-  .travel-section {
-    margin-top: -49px;
-  }
-
-  .m17-travel-paper-sheet {
-    position: relative;
-    left: -17px;
-  }
-
-  .m17-about-portrait-photo {
-    transform: translate(-78px, -24px);
-  }
+  .m17-kpop-paper-sheet { transform: none; }
+  .travel-section { margin-top: -49px; }
+  .m17-travel-paper-sheet { position: relative; left: -17px; }
+  .m17-about-portrait-photo { transform: translate(-78px, -24px); }
 }
 /* END M17-TASK 01-geometry-normalize */
 
 /* BEGIN M17-TASK 02-about-decor */
 @media (min-width: 1200px) {
-  .about-note.m17-about-note {
-    top: 235px;
-    right: -15px;
-    bottom: auto;
-    width: 185px;
-    height: 165px;
-  }
-
-  .about-stamp.m17-about-stamp {
-    top: 70px;
-    right: 125px;
-    width: 95px;
-    height: 95px;
-  }
-
-  .about-flowers.m17-about-flower-cluster {
-    top: 235px;
-    right: -40px;
-    bottom: auto;
-    width: 195px;
-    height: 210px;
-  }
+  .about-note.m17-about-note { top: 235px; right: -15px; bottom: auto; width: 185px; height: 165px; }
+  .about-stamp.m17-about-stamp { top: 70px; right: 125px; width: 95px; height: 95px; }
+  .about-flowers.m17-about-flower-cluster { top: 235px; right: -40px; bottom: auto; width: 195px; height: 210px; }
 }
 /* END M17-TASK 02-about-decor */
 
 /* BEGIN M17-TASK 03-travel-locked-collage */
 @media (min-width: 1200px) {
-  .travel-photo.m17-travel-polaroid-01 {
-    left: 80px;
-    top: 115px;
-    width: 175px;
-    height: 195px;
-    transform: none;
-  }
-
-  .travel-photo.m17-travel-polaroid-02 {
-    left: 825px;
-    right: auto;
-    top: 40px;
-    width: 185px;
-    height: 185px;
-    transform: none;
-  }
-
-  .travel-map.m17-travel-map {
-    left: 995px;
-    right: auto;
-    top: 115px;
-    bottom: auto;
-    width: 250px;
-    height: 265px;
-    transform: none;
-  }
-
+  .travel-photo.m17-travel-polaroid-01 { left: 80px; top: 115px; width: 175px; height: 195px; transform: none; }
+  .travel-photo.m17-travel-polaroid-02 { left: 825px; right: auto; top: 40px; width: 185px; height: 185px; transform: none; }
+  .travel-map.m17-travel-map { left: 995px; right: auto; top: 115px; bottom: auto; width: 250px; height: 265px; transform: none; }
   .travel-postcard.m17-travel-postcard-photo,
-  .m17-travel-postcard-back {
-    left: 1030px;
-    right: auto;
-    top: 0;
-    width: 215px;
-    height: 190px;
-    transform: none;
-  }
-
-  .travel-ticket.m17-travel-ticket {
-    left: 925px;
-    right: auto;
-    top: 330px;
-    bottom: auto;
-    width: 240px;
-    height: 90px;
-    transform: none;
-  }
+  .m17-travel-postcard-back { left: 1030px; right: auto; top: 0; width: 215px; height: 190px; transform: none; }
+  .travel-ticket.m17-travel-ticket { left: 925px; right: auto; top: 330px; bottom: auto; width: 240px; height: 90px; transform: none; }
 }
 /* END M17-TASK 03-travel-locked-collage */
 
 /* BEGIN M17-TASK 04-kpop-locked-collage */
 @media (min-width: 1200px) {
-  .kpop-polaroid.m17-kpop-polaroid-main {
-    left: 250px;
-    top: 125px;
-    bottom: auto;
-    width: 190px;
-    height: 235px;
-    transform: none;
-  }
-
-  .kpop-polaroid.m17-kpop-polaroid-crowd {
-    left: 1165px;
-    right: auto;
-    top: 110px;
-    width: 180px;
-    height: 210px;
-    transform: none;
-  }
-
-  .kpop-ticket.m17-kpop-ticket {
-    left: 1275px;
-    right: auto;
-    top: 185px;
-    bottom: auto;
-    width: 115px;
-    height: 290px;
-    transform: none;
-  }
-
-  .kpop-stamp.m17-kpop-postage-cluster {
-    left: 1090px;
-    right: auto;
-    top: 40px;
-    width: 90px;
-    height: 90px;
-    transform: none;
-  }
+  .kpop-polaroid.m17-kpop-polaroid-main { left: 250px; top: 125px; bottom: auto; width: 190px; height: 235px; transform: none; }
+  .kpop-polaroid.m17-kpop-polaroid-crowd { left: 1165px; right: auto; top: 110px; width: 180px; height: 210px; transform: none; }
+  .kpop-ticket.m17-kpop-ticket { left: 1275px; right: auto; top: 185px; bottom: auto; width: 115px; height: 290px; transform: none; }
+  .kpop-stamp.m17-kpop-postage-cluster { left: 1090px; right: auto; top: 40px; width: 90px; height: 90px; transform: none; }
 }
 /* END M17-TASK 04-kpop-locked-collage */
+
+/* BEGIN M17-TASK 05-travel-product-row */
+@media (min-width: 1200px) {
+  .m17-travel-paper-sheet .product-grid {
+    width: 750px;
+    margin-left: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .m17-travel-paper-sheet .product-card:nth-child(n) {
+    height: 260px;
+    transform: none;
+  }
+
+  .m17-travel-paper-sheet .media-placeholder[data-asset-id] {
+    height: 82px;
+    min-height: 82px;
+  }
+
+  .m17-travel-paper-sheet .card-content { padding: 10px 12px; }
+  .m17-travel-paper-sheet .card-topline { margin-bottom: 6px; }
+  .m17-travel-paper-sheet h3 { min-height: 42px; margin-bottom: 6px; font-size: 1.15rem; }
+  .m17-travel-paper-sheet .product-card p { min-height: 38px; margin-bottom: 6px; font-size: .62rem; line-height: 1.3; }
+  .m17-travel-paper-sheet .card-bottom { gap: 4px; padding-top: 5px; }
+  .m17-travel-paper-sheet .text-cta { font-size: .54rem; }
+}
+/* END M17-TASK 05-travel-product-row */
