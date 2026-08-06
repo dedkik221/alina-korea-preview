@@ -47,10 +47,9 @@ manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\
 
 for path in RUNTIME_FILES:
     text = path.read_text(encoding='utf-8')
-    if 'assets/home/m1.7/' in text and '.png' in text:
-        bad = [line for line in text.splitlines() if 'assets/home/m1.7/' in line and '.png' in line]
-        if bad:
-            raise SystemExit(f'Runtime PNG reference remains in {path}: ' + bad[0])
+    bad = [line for line in text.splitlines() if 'assets/home/m1.7/' in line and '.png' in line]
+    if bad:
+        raise SystemExit(f'Runtime PNG reference remains in {path}: ' + bad[0])
 
 webps = sorted(ASSET_DIR.glob('*.webp'))
 if len(webps) != len(pngs):
@@ -64,4 +63,9 @@ report = (
     f'Reduction: {(1 - after / before) * 100:.2f}%\n'
 )
 (ROOT / 'WEBP-SIZE-REPORT.txt').write_text(report, encoding='utf-8')
+
+for src in pngs:
+    src.unlink()
+
 print(report)
+print('Removed PNG delivery copies from public preview; WebP only remains.')
