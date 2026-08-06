@@ -119,3 +119,24 @@
   }
 }
 /* END M17-TASK 12-travel-small-map-fragment */
+
+/* BEGIN M17-TASK 13-kpop-left-cluster */
+@media (min-width: 1200px) {
+  .kpop-lightstick.m17-kpop-polaroid-upper-lightstick {
+    left: 250px;
+    top: 125px;
+    bottom: auto;
+    width: 150px;
+    height: 190px;
+    transform: none;
+  }
+
+  .m17-kpop-polaroid-small {
+    left: 285px;
+    top: 205px;
+    width: 155px;
+    height: 155px;
+    transform: none;
+  }
+}
+/* END M17-TASK 13-kpop-left-cluster */
