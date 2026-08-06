@@ -1,7 +1,9 @@
 name: M1.7 live Pages QA
 
 on:
-  page_build:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -10,6 +12,7 @@ timeout-minutes: 15
 
 jobs:
   qa:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Install Playwright
@@ -35,11 +38,10 @@ jobs:
           page.on('pageerror',e=>consoleErrors.push(String(e)));
           await page.goto(url,{waitUntil:'networkidle',timeout:60000});
           const selectors={
-            aboutPaper:'.about-paper',
-            portrait:'.m17-about-portrait-photo',
-            travelPaper:'.travel-paper',
-            kpopPaper:'.kpop-paper',
-            telegramCard:'.contact-card'
+            header:'.site-header', heroCopy:'.hero-copy', aboutPaper:'.about-paper', facts:'.facts-grid', portrait:'.m17-about-portrait-photo',
+            travelPaper:'.travel-paper', travelGrid:'.m17-travel-paper-sheet .product-grid',
+            kpopPaper:'.kpop-paper', kpopGrid:'.m17-kpop-paper-sheet .product-grid',
+            telegramCard:'.contact-card', telegramIcon:'.m17-telegram-icon', telegramCopy:'.contact-copy', telegramButton:'.contact-copy .button-light', telegramHandle:'.contact-handle'
           };
           const boxes={};
           for(const [name,sel] of Object.entries(selectors)){
