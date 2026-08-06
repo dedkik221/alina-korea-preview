@@ -36,19 +36,7 @@ jobs:
           for key in ('id','css','commit_message','source_commit'):
               if not task.get(key): raise SystemExit(f'missing task field: {key}')
           Path('/tmp/task-commit').write_text(task['commit_message'])
-          Path('/tmp/do-webp').write_text('1' if task.get('webp') else '0')
           PY
-
-      - name: Install WebP encoder
-        run: sudo apt-get update -qq && sudo apt-get install -y webp
-
-      - name: Convert public M1.7 delivery to WebP
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [ "$(cat /tmp/do-webp)" = "1" ]; then
-            python3 .github/scripts/convert_public_m17_webp.py
-          fi
 
       - name: Apply CSS tuning and source commit marker
         shell: bash
@@ -72,8 +60,6 @@ jobs:
           info=json.loads(info_path.read_text(encoding='utf-8'))
           info['source_commit']=task['source_commit']
           info['last_tuning_task']=task['id']
-          if task.get('webp'):
-              info['delivery_format']='webp'
           info_path.write_text(json.dumps(info,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           PY
 
@@ -83,7 +69,7 @@ jobs:
           set -euo pipefail
           git config user.name 'M1.7 Preview Bot'
           git config user.email '128158763+dedkik221@users.noreply.github.com'
-          git add -A m17
+          git add m17/styles.css m17/BUILD-INFO.json
           if git diff --cached --quiet; then
             echo 'No changes to commit'
             exit 0
