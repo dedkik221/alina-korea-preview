@@ -92,3 +92,14 @@
   .hero-text { max-width: 760px; margin-bottom: 22px; font-size: .9rem; line-height: 1.55; }
 }
 /* END M17-TASK 10-hero-copy */
+
+/* BEGIN M17-TASK 11-background-zones */
+@media (min-width: 1200px) {
+  .background-scene-light { top: 0; height: 760px; }
+  .background-scene-evening { top: 700px; height: 700px; }
+  .background-scene-night { top: 1330px; height: 818px; }
+  .background-blend { height: 70px; }
+  .background-blend-evening { top: 690px; }
+  .background-blend-night { top: 1320px; }
+}
+/* END M17-TASK 11-background-zones */
