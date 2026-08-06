@@ -1,0 +1,78 @@
+name: M1.7 deploy tuning task
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/m17-deploy-tasks/*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: m17-deploy-tuning
+  cancel-in-progress: false
+
+jobs:
+  deploy-tune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Load task
+        shell: bash
+        run: |
+          set -euo pipefail
+          TASK_FILE="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^.github/m17-deploy-tasks/.*\.json$' | tail -1)"
+          test -n "$TASK_FILE"
+          cp "$TASK_FILE" /tmp/m17-deploy-task.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          task=json.loads(Path('/tmp/m17-deploy-task.json').read_text())
+          for key in ('id','css','commit_message','source_commit'):
+              if not task.get(key): raise SystemExit(f'missing task field: {key}')
+          Path('/tmp/task-commit').write_text(task['commit_message'])
+          PY
+
+      - name: Apply CSS tuning and source commit marker
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          task=json.loads(Path('/tmp/m17-deploy-task.json').read_text())
+          path=Path('m17/styles.css')
+          text=path.read_text(encoding='utf-8')
+          start=f"/* BEGIN M17-TASK {task['id']} */"
+          end=f"/* END M17-TASK {task['id']} */"
+          block=start+'\n'+task['css'].rstrip()+'\n'+end
+          pattern=re.compile(re.escape(start)+r'.*?'+re.escape(end),re.S)
+          if pattern.search(text): text=pattern.sub(block,text)
+          else: text=text.rstrip()+'\n\n'+block+'\n'
+          path.write_text(text,encoding='utf-8')
+
+          info_path=Path('m17/BUILD-INFO.json')
+          info=json.loads(info_path.read_text(encoding='utf-8'))
+          info['source_commit']=task['source_commit']
+          info['last_tuning_task']=task['id']
+          info_path.write_text(json.dumps(info,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Commit public preview update
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'M1.7 Preview Bot'
+          git config user.email '128158763+dedkik221@users.noreply.github.com'
+          git add m17/styles.css m17/BUILD-INFO.json
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+            exit 0
+          fi
+          git commit -m "$(cat /tmp/task-commit)"
+          git push origin HEAD:main
