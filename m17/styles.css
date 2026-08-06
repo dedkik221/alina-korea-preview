@@ -64,16 +64,16 @@
 
 /* BEGIN M17-TASK 07-about-fact-row */
 @media (min-width: 1200px) {
-  .m17-about-paper-sheet .facts-grid {
-    width: 965px;
-    left: -12px;
-    top: -40px;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-  }
-
-  .m17-about-paper-sheet .fact {
-    min-height: 75px;
-  }
+  .m17-about-paper-sheet .facts-grid { width: 965px; left: -12px; top: -40px; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+  .m17-about-paper-sheet .fact { min-height: 75px; }
 }
 /* END M17-TASK 07-about-fact-row */
+
+/* BEGIN M17-TASK 08-telegram-content */
+@media (min-width: 1200px) {
+  .telegram-orb.m17-telegram-icon { transform: translate(-20px, -25px); }
+  .contact-copy { transform: translateX(-4px); }
+  .contact-copy .button-light { width: 390px; margin-left: 25px; }
+  .contact-handle { margin-left: 75px; }
+}
+/* END M17-TASK 08-telegram-content */
