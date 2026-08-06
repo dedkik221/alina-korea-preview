@@ -80,12 +80,15 @@
 
 /* BEGIN M17-TASK 09-header-frame */
 @media (min-width: 1200px) {
-  .site-header {
-    top: 24px;
-    left: 160px;
-    right: auto;
-    width: 1120px;
-    min-height: 81px;
-  }
+  .site-header { top: 24px; left: 160px; right: auto; width: 1120px; min-height: 81px; }
 }
 /* END M17-TASK 09-header-frame */
+
+/* BEGIN M17-TASK 10-hero-copy */
+@media (min-width: 1200px) {
+  .hero { min-height: 575px; display: block; padding: 135px 0 0; }
+  .hero-copy { width: 840px; margin: 0 auto; }
+  .hero h1 { margin-bottom: 18px; font-size: 56px; line-height: .96; letter-spacing: -.055em; }
+  .hero-text { max-width: 760px; margin-bottom: 22px; font-size: .9rem; line-height: 1.55; }
+}
+/* END M17-TASK 10-hero-copy */
