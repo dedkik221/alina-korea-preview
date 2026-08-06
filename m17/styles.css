@@ -51,3 +51,54 @@
   }
 }
 /* END M17-TASK 02-about-decor */
+
+/* BEGIN M17-TASK 03-travel-locked-collage */
+@media (min-width: 1200px) {
+  .travel-photo.m17-travel-polaroid-01 {
+    left: 80px;
+    top: 115px;
+    width: 175px;
+    height: 195px;
+    transform: none;
+  }
+
+  .travel-photo.m17-travel-polaroid-02 {
+    left: 825px;
+    right: auto;
+    top: 40px;
+    width: 185px;
+    height: 185px;
+    transform: none;
+  }
+
+  .travel-map.m17-travel-map {
+    left: 995px;
+    right: auto;
+    top: 115px;
+    bottom: auto;
+    width: 250px;
+    height: 265px;
+    transform: none;
+  }
+
+  .travel-postcard.m17-travel-postcard-photo,
+  .m17-travel-postcard-back {
+    left: 1030px;
+    right: auto;
+    top: 0;
+    width: 215px;
+    height: 190px;
+    transform: none;
+  }
+
+  .travel-ticket.m17-travel-ticket {
+    left: 925px;
+    right: auto;
+    top: 330px;
+    bottom: auto;
+    width: 240px;
+    height: 90px;
+    transform: none;
+  }
+}
+/* END M17-TASK 03-travel-locked-collage */
