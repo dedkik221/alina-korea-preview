@@ -102,3 +102,44 @@
   }
 }
 /* END M17-TASK 03-travel-locked-collage */
+
+/* BEGIN M17-TASK 04-kpop-locked-collage */
+@media (min-width: 1200px) {
+  .kpop-polaroid.m17-kpop-polaroid-main {
+    left: 250px;
+    top: 125px;
+    bottom: auto;
+    width: 190px;
+    height: 235px;
+    transform: none;
+  }
+
+  .kpop-polaroid.m17-kpop-polaroid-crowd {
+    left: 1165px;
+    right: auto;
+    top: 110px;
+    width: 180px;
+    height: 210px;
+    transform: none;
+  }
+
+  .kpop-ticket.m17-kpop-ticket {
+    left: 1275px;
+    right: auto;
+    top: 185px;
+    bottom: auto;
+    width: 115px;
+    height: 290px;
+    transform: none;
+  }
+
+  .kpop-stamp.m17-kpop-postage-cluster {
+    left: 1090px;
+    right: auto;
+    top: 40px;
+    width: 90px;
+    height: 90px;
+    transform: none;
+  }
+}
+/* END M17-TASK 04-kpop-locked-collage */
