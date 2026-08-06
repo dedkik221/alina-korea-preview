@@ -1,0 +1,106 @@
+name: M1.7 WebP optimization and legacy cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/m17-webp-and-cleanup.yml'
+
+permissions:
+  contents: write
+
+timeout-minutes: 20
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout deploy repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install WebP encoder
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y webp
+
+      - name: Convert M1.7 PNG assets to WebP
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          dir='m17/assets/home/m1.7'
+          before=0
+          after=0
+          count=0
+          for src in "$dir"/*.png; do
+            name="$(basename "$src" .png)"
+            dst="$dir/$name.webp"
+            before=$((before + $(stat -c%s "$src")))
+            case "$name" in
+              *portrait*|*card-*|*polaroid*|*postcard-photo*|travel-map)
+                cwebp -quiet -mt -m 6 -q 88 -alpha_q 100 "$src" -o "$dst"
+                ;;
+              *)
+                cwebp -quiet -mt -lossless -z 9 "$src" -o "$dst"
+                ;;
+            esac
+            after=$((after + $(stat -c%s "$dst")))
+            count=$((count + 1))
+          done
+          printf 'Converted %d PNG files\nPNG bytes: %d\nWebP bytes: %d\n' "$count" "$before" "$after" | tee m17/WEBP-SIZE-REPORT.txt
+          test "$count" -gt 0
+          test "$after" -lt "$before"
+
+      - name: Switch current site runtime references to WebP
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in m17/index.html m17/styles.css m17/styles-base.css; do
+            test -f "$file"
+            sed -E -i 's#(assets/home/m1\.7/[^"'"'')[:space:]]+)\.png#\1.webp#g' "$file"
+          done
+          if grep -nE 'assets/home/m1\.7/[^"'"'')[:space:]]+\.png' m17/index.html m17/styles.css m17/styles-base.css; then
+            echo 'Runtime PNG reference remains' >&2
+            exit 1
+          fi
+
+      - name: Disable legacy public site paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name '.git' \
+            ! -name '.github' \
+            ! -name '.nojekyll' \
+            ! -name 'm17' \
+            -exec rm -rf {} +
+          cat > index.html <<'HTML'
+          <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0; url=./m17/"><title>ALINA — current preview</title></head><body><p><a href="./m17/">Открыть актуальную версию сайта</a></p></body></html>
+          HTML
+          cat > 404.html <<'HTML'
+          <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0; url=/alina-korea-preview/m17/"><title>ALINA — current preview</title></head><body><p><a href="/alina-korea-preview/m17/">Открыть актуальную версию сайта</a></p></body></html>
+          HTML
+
+      - name: Upload optimized source package
+        uses: actions/upload-artifact@v4
+        with:
+          name: m17-webp-source-package
+          path: |
+            m17/assets/home/m1.7/*.webp
+            m17/index.html
+            m17/styles.css
+            m17/styles-base.css
+            m17/WEBP-SIZE-REPORT.txt
+          retention-days: 14
+
+      - name: Commit optimized deploy and legacy cleanup
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'perf(m17): serve WebP and retire legacy public builds'
+          git push origin HEAD:main
