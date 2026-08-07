@@ -2,10 +2,10 @@
   "preview": "M1.7",
   "source_repository": "dedkik221/alina-site-version-2026-08-06",
   "source_branch": "preview-m17",
-  "source_commit": "16109e57d18a373d20ca615938e925ff9231329d",
+  "source_commit": "preview-m17-canonical-2026-08-07",
   "published_path": "/m17/",
   "robots": "noindex,nofollow",
-  "last_tuning_task": "64-final-source-sync",
+  "last_tuning_task": "37-canonical-block-layout",
   "delivery_format": "webp",
   "qa_refresh": "2026-08-07T09:07:15Z"
 }

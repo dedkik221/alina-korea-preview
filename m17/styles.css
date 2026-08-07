@@ -414,3 +414,84 @@
   }
 }
 /* END M17-TASK 64-final-source-sync */
+
+/* BEGIN M17-TASK 37-canonical-block-layout */
+@media (min-width: 1200px) {
+  .about { margin-top: -55px; }
+  .m17-about-paper-sheet { width:1000px; height:465px; min-height:465px; padding:0; border:1px solid rgba(255,255,255,.78); border-radius:34px 24px 38px 30px; background-image:none; background:linear-gradient(118deg,rgba(255,252,249,.90),rgba(255,241,240,.80)); box-shadow:0 18px 42px rgba(45,25,39,.18),inset 0 1px 0 rgba(255,255,255,.92); backdrop-filter:blur(18px) saturate(112%); -webkit-backdrop-filter:blur(18px) saturate(112%); overflow:visible; }
+  .m17-about-paper-sheet::before{display:none;}
+  .m17-about-paper-sheet .paper-kicker{position:absolute;left:48px;top:18px;margin:0;font-size:0;color:#c98f86;transform:rotate(-7deg);transform-origin:left center;}
+  .m17-about-paper-sheet .paper-kicker::before{content:'about';font-family:var(--script);font-size:42px;line-height:1;}
+  .m17-about-paper-sheet .about-grid{position:static;display:block;}
+  .m17-about-paper-sheet .about-copy{position:absolute;left:65px;top:56px;width:520px;}
+  .m17-about-paper-sheet .about-copy h2{margin:0 0 18px 100px;font-family:var(--display);font-size:47px;font-weight:500;line-height:1;letter-spacing:-.045em;}
+  .m17-about-paper-sheet .about-copy>p:not(.eyebrow){width:380px;max-width:none;margin:0;color:#3e3439;font-size:15.5px;line-height:1.55;}
+  .m17-about-paper-sheet .m17-about-portrait-photo{position:absolute;left:675px;top:25px;width:285px;height:280px;min-height:280px;transform:none;}
+  .m17-about-paper-sheet .facts-grid{position:absolute;left:40px;top:335px;width:840px;height:84px;margin:0;grid-template-columns:repeat(5,1fr);gap:8px;}
+  .m17-about-paper-sheet .fact{min-height:84px;padding:10px 12px;gap:9px;border:1px solid rgba(255,255,255,.72);border-radius:13px;background:rgba(255,255,255,.62);box-shadow:0 7px 14px rgba(69,42,51,.08),inset 0 1px 0 rgba(255,255,255,.78);}
+  .m17-about-paper-sheet .fact span:last-child{color:#40373b;font-size:12.5px;line-height:1.24;}
+  .fact-icon[class*="m17-about-icon-"]{width:34px;height:34px;}
+  .fact-icon[class*="m17-about-icon-"] img{filter:sepia(.5) saturate(1.7) hue-rotate(305deg);}
+  .about-stamp.m17-about-stamp{top:62px;right:-2px;width:105px;height:105px;transform:rotate(8deg);}
+  .about-note.m17-about-note{top:226px;right:-112px;width:205px;height:170px;transform:rotate(-5deg);}
+  .about-flowers.m17-about-flower-cluster{top:162px;right:-112px;bottom:auto;width:215px;height:230px;transform:rotate(4deg);}
+  .m17-about-city-lineart{left:730px;top:70px;bottom:auto;width:250px;height:195px;opacity:.40;}
+  .tape-about.m17-about-tape{display:none;}
+
+  .travel-section{margin-top:30px;}
+  .m17-travel-paper-sheet{left:0;width:1040px;height:470px;padding:0;border:0;border-radius:0;background-color:transparent;background-size:100% 505px;background-position:center -35px;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;overflow:visible;}
+  .m17-travel-paper-sheet::before{display:block;position:absolute;left:0;top:0;z-index:-1;width:165px;height:470px;content:'';background:linear-gradient(105deg,rgba(238,218,184,.98),rgba(235,214,178,.94));clip-path:polygon(7% 4%,100% 0,100% 100%,4% 97%,0 72%,5% 48%,1% 23%);}
+  .m17-travel-paper-sheet .paper-label{position:absolute;left:58px;top:30px;margin:0;font-family:var(--display);font-size:38px;font-weight:500;line-height:1;letter-spacing:-.035em;}
+  .m17-travel-paper-sheet .product-grid{position:absolute;left:30px;top:90px;width:580px;margin:0;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .m17-travel-paper-sheet .product-card:nth-child(n){height:315px;transform:none;border:1px solid rgba(111,83,77,.16);border-radius:11px;background:rgba(255,253,250,.94);box-shadow:0 8px 16px rgba(58,38,36,.13);}
+  .m17-travel-paper-sheet .media-placeholder[data-asset-id]{width:137%;max-width:none;height:145px;min-height:145px;margin-left:-18.5%;border:0;object-fit:cover;transform:translateY(-10px) scaleY(1.25);transform-origin:center top;position:relative;z-index:1;}
+  .m17-travel-paper-sheet .card-content{position:relative;z-index:2;padding:11px 12px 10px;background:rgba(255,253,250,.96);}
+  .m17-travel-paper-sheet .card-topline,.m17-travel-paper-sheet .product-card p,.m17-travel-paper-sheet .text-cta{display:none;}
+  .m17-travel-paper-sheet h3{min-height:48px;margin:0 0 14px;font-family:var(--display);font-size:18px;font-weight:500;line-height:1.15;letter-spacing:-.025em;text-align:center;}
+  .m17-travel-paper-sheet .card-bottom{display:block;padding:0;border:0;text-align:center;}
+  .m17-travel-paper-sheet .card-bottom strong{font-family:var(--display);font-size:18px;font-weight:500;}
+  .travel-section>.travel-photo,.travel-section>.travel-map,.travel-section>.travel-postcard,.travel-section>.m17-travel-postcard-back{z-index:20;}
+  .travel-section>.travel-ticket{z-index:24;}
+  .travel-photo.m17-travel-polaroid-01{left:50px;top:92px;width:175px;height:195px;}
+  .travel-photo.m17-travel-polaroid-02{left:703px;top:-63px;width:320px;height:320px;z-index:24;}
+  .travel-postcard.m17-travel-postcard-photo{display:none;}
+  .m17-travel-postcard-back{left:930px;right:auto;top:17px;width:260px;height:215px;z-index:21;}
+  .travel-map.m17-travel-map{left:870px;right:auto;top:65px;width:190px;height:300px;z-index:23;object-fit:cover;}
+  .travel-ticket.m17-travel-ticket{left:760px;right:auto;top:330px;width:240px;height:90px;z-index:24;}
+  .m17-travel-tape{left:111px;top:-48px;z-index:25;}
+  .m17-travel-postage-stamp,.paper-note.m17-travel-handwritten-note,.route-doodle.m17-travel-doodles{display:none;}
+  .travel-section::before{display:block;position:absolute;left:125px;top:210px;z-index:18;width:210px;height:160px;content:'';pointer-events:none;background:url('assets/home/m1.7/travel-map.webp') center/cover no-repeat;transform:rotate(-5deg);}
+
+  .kpop-section{margin-top:-46px;}
+  .m17-kpop-paper-sheet{width:740px;height:450px;margin-left:34.3%;margin-right:0;padding:0;border:0;border-radius:0;background-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;overflow:visible;}
+  .m17-kpop-paper-sheet::before{display:none;}
+  .m17-kpop-paper-sheet .paper-label{position:absolute;left:232px;top:62px;margin:0;font-family:var(--display);font-size:38px;font-weight:500;line-height:1;letter-spacing:-.035em;}
+  .m17-kpop-paper-sheet .product-grid{position:absolute;left:115px;top:116px;width:600px;margin:0;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .m17-kpop-paper-sheet .product-card:nth-child(n){height:285px;transform:none;border:1px solid rgba(101,71,116,.16);border-radius:11px;background:rgba(255,252,255,.94);box-shadow:0 8px 16px rgba(45,28,57,.15);}
+  .m17-kpop-paper-sheet .media-placeholder[data-asset-id]{width:145%;max-width:none;height:140px;min-height:140px;margin-left:-22.5%;border:0;object-fit:cover;transform:translateY(-10px) scaleY(1.28);transform-origin:center top;position:relative;z-index:1;}
+  .m17-kpop-paper-sheet .card-content{position:relative;z-index:2;padding:11px 10px 10px;background:rgba(255,252,255,.95);}
+  .m17-kpop-paper-sheet .card-topline,.m17-kpop-paper-sheet .product-card p,.m17-kpop-paper-sheet .text-cta{display:none;}
+  .m17-kpop-paper-sheet h3{min-height:48px;margin:0 0 12px;font-family:var(--display);font-size:17px;font-weight:500;line-height:1.15;letter-spacing:-.02em;text-align:center;}
+  .m17-kpop-paper-sheet .card-bottom{display:block;padding:0;border:0;text-align:center;}
+  .m17-kpop-paper-sheet .card-bottom strong{font-family:var(--display);font-size:17px;font-weight:500;}
+  .m17-kpop-polaroid-small,.kpop-stamp.m17-kpop-postage-cluster,.m17-kpop-paper-sheet .kpop-sticker{display:none;}
+  .kpop-lightstick.m17-kpop-polaroid-upper-lightstick{left:282px;top:98px;bottom:auto;width:360px;height:340px;z-index:22;}
+  .kpop-polaroid.m17-kpop-polaroid-main{left:360px;top:205px;width:210px;height:245px;z-index:21;}
+  .kpop-polaroid.m17-kpop-polaroid-crowd{left:1110px;top:-25px;width:220px;height:250px;z-index:22;content:url('assets/home/m1.7/kpop-polaroid-upper-lightstick.webp');}
+  .kpop-ticket.m17-kpop-ticket{left:1222px;right:auto;top:-50px;width:210px;height:360px;z-index:24;}
+  .m17-kpop-tape{left:522px;top:7px;z-index:25;}
+  .m17-kpop-wax-seal{display:block;position:absolute;left:1095px;right:auto;top:48px;z-index:25;width:86px;height:86px;object-fit:contain;transform:rotate(-6deg);pointer-events:none;}
+
+  .contact{margin-top:-58px;padding:0;}
+  .contact-card{position:relative;display:block;width:780px;height:265px;min-height:265px;margin-inline:auto;padding:0;overflow:hidden;border:1px solid rgba(255,255,255,.62);border-radius:28px 22px 30px 24px;color:#181318;background:linear-gradient(118deg,rgba(255,255,255,.72),rgba(223,184,216,.62) 55%,rgba(171,132,176,.58));box-shadow:0 18px 42px rgba(22,11,32,.28),inset 0 1px 0 rgba(255,255,255,.8);backdrop-filter:blur(22px) saturate(120%);-webkit-backdrop-filter:blur(22px) saturate(120%);}
+  .telegram-orb.m17-telegram-icon{position:absolute;left:60px;top:84px;z-index:20;width:105px;height:105px;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;transform:none;filter:grayscale(.45) brightness(1.28) saturate(.65);}
+  .contact-copy{position:absolute;left:220px;top:39px;z-index:20;width:520px;transform:none;}
+  .contact-card .contact-copy h2{margin:0;color:#181318;font-family:var(--display);font-size:36px;font-weight:500;line-height:1.08;letter-spacing:-.035em;white-space:nowrap;}
+  .contact-card .contact-copy p:not(.eyebrow){width:500px;margin:14px 0 0;color:rgba(24,19,24,.86);font-size:16px;line-height:1.42;}
+  .contact-card .button-light{display:flex;align-items:center;justify-content:center;width:310px;height:54px;margin:16px 0 0 16px;padding:0;border:1px solid rgba(255,255,255,.58);border-radius:28px;color:#fff;background:rgba(255,255,255,.20);box-shadow:inset 0 1px 0 rgba(255,255,255,.28);font-size:17px;font-weight:600;}
+  .contact-handle{display:block;margin:11px 0 0 115px;color:rgba(255,255,255,.88);font-size:15px;letter-spacing:0;}
+  .contact-postmark{display:none;}
+  .m17-telegram-lineart{right:5px;bottom:0;z-index:15;width:200px;height:195px;opacity:.34;transform:none;}
+  .site-footer{height:60px;min-height:60px;padding:0;visibility:hidden;}
+}
+/* END M17-TASK 37-canonical-block-layout */
