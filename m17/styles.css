@@ -341,3 +341,16 @@
   }
 }
 /* END M17-TASK 42-live-residual-cleanup */
+
+/* BEGIN M17-TASK 43-kpop-transition-cleanup */
+@media (min-width: 1200px) {
+  .kpop-section > .kpop-polaroid.m17-kpop-polaroid-main {
+    display: none !important;
+  }
+  .m17-travel-paper-sheet > .paper-note.m17-travel-handwritten-note {
+    left: 265px;
+    top: 375px;
+    z-index: 26;
+  }
+}
+/* END M17-TASK 43-kpop-transition-cleanup */
