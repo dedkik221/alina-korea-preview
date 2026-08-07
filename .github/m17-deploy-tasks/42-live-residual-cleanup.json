@@ -1,0 +1,6 @@
+{
+  "id": "42-live-residual-cleanup",
+  "source_commit": "a444e3d4df20a7f8a79998f7ebd494e0e1af2ad1",
+  "commit_message": "deploy(m17): hide residual legacy decor from live QA",
+  "css": "@media (min-width: 1200px) {\n  .travel-section > .m17-travel-postage-stamp,\n  .travel-section > .m17-travel-airplane-doodle,\n  .kpop-section > .m17-kpop-polaroid-small,\n  .kpop-section > .m17-kpop-wax-seal {\n    display: none !important;\n  }\n}\n"
+}
