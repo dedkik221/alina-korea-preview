@@ -1,7 +1,0 @@
-{
-  "id": "20-public-webp-delivery",
-  "css": "/* WebP delivery only; no visual geometry change. */",
-  "commit_message": "perf(m17): publish WebP-only delivery",
-  "source_commit": "4d0448ff0ac572d63ce54632c866b7ddde9e53b8",
-  "webp": true
-}
