@@ -1,0 +1,6 @@
+{
+  "id": "43-kpop-transition-cleanup",
+  "source_commit": "92890b83787d2aa70828baaaf5d3d84114c5c65c",
+  "commit_message": "deploy(m17): clean K-pop duplicate and travel note",
+  "css": "@media (min-width: 1200px) {\n  .kpop-section > .kpop-polaroid.m17-kpop-polaroid-main {\n    display: none !important;\n  }\n  .m17-travel-paper-sheet > .paper-note.m17-travel-handwritten-note {\n    left: 265px;\n    top: 375px;\n    z-index: 26;\n  }\n}\n"
+}
