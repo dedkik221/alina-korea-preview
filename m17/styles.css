@@ -330,3 +330,14 @@
   .site-footer { height: 60px; min-height: 60px; padding: 0; visibility: hidden; }
 }
 /* END M17-TASK 41-consolidated-current */
+
+/* BEGIN M17-TASK 42-live-residual-cleanup */
+@media (min-width: 1200px) {
+  .travel-section > .m17-travel-postage-stamp,
+  .travel-section > .m17-travel-airplane-doodle,
+  .kpop-section > .m17-kpop-polaroid-small,
+  .kpop-section > .m17-kpop-wax-seal {
+    display: none !important;
+  }
+}
+/* END M17-TASK 42-live-residual-cleanup */
