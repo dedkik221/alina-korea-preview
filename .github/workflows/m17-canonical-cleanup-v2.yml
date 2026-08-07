@@ -1,0 +1,35 @@
+name: M1.7 canonical cleanup v2
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/m17-canonical-cleanup-v2.yml
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Keep only canonical CSS block
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('m17/styles.css')
+          text = p.read_text(encoding='utf-8')
+          start = '/* BEGIN M17-TASK 37-canonical-block-layout */'
+          end = '/* END M17-TASK 37-canonical-block-layout */'
+          a = text.index(start)
+          b = text.index(end, a) + len(end)
+          p.write_text("@import url('./styles-base.css');\n\n" + text[a:b] + "\n", encoding='utf-8')
+          PY
+      - name: Commit cleanup
+        run: |
+          git config user.name 'M1.7 Preview Bot'
+          git config user.email '128158763+dedkik221@users.noreply.github.com'
+          git add m17/styles.css
+          git commit -m 'refactor(m17): collapse public CSS to canonical block'
+          git push origin HEAD:main
