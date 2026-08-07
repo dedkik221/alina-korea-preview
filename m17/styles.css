@@ -354,3 +354,63 @@
   }
 }
 /* END M17-TASK 43-kpop-transition-cleanup */
+
+/* BEGIN M17-TASK 64-final-source-sync */
+@media (min-width: 1200px) {
+  .background-scene-light {
+    top: 0;
+    height: 760px;
+    background-image: linear-gradient(180deg, rgba(255,248,246,.08), rgba(30,37,43,.22)), url('references/draft-media/bg-light.jpg');
+    background-position: center 34%;
+    filter: none;
+    -webkit-mask-image: linear-gradient(180deg, #000 0 82%, transparent 100%);
+    mask-image: linear-gradient(180deg, #000 0 82%, transparent 100%);
+  }
+  .background-scene-evening {
+    top: 700px;
+    height: 700px;
+    background-image: linear-gradient(180deg, rgba(255,197,178,.12), rgba(9,12,18,.38)), url('references/draft-media/bg-evening.jpg');
+    background-position: center 52%;
+    filter: none;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 13%, #000 86%, transparent 100%);
+    mask-image: linear-gradient(180deg, transparent 0, #000 13%, #000 86%, transparent 100%);
+  }
+  .background-blend-evening { top: 690px; height: 70px; opacity: .26; }
+  .background-scene-night {
+    top: 1260px;
+    height: 896px;
+    background-image: linear-gradient(90deg, rgba(4,17,43,.76), rgba(18,14,42,.44) 52%, rgba(28,11,48,.22)), linear-gradient(180deg, rgba(13,22,49,.30), rgba(5,5,18,.62)), url('references/draft-media/bg-night.jpg');
+    background-position: center 46%;
+    filter: brightness(.72) saturate(.58);
+    -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 11%, #000 100%);
+    mask-image: linear-gradient(180deg, transparent 0, #000 11%, #000 100%);
+  }
+  .background-blend-night { top: 1240px; height: 90px; opacity: .18; }
+
+  .m17-travel-paper-sheet > .paper-note.m17-travel-handwritten-note { display: none !important; }
+  .travel-postcard.m17-travel-postcard-photo {
+    display: block; left: 62px; right: auto; top: 330px; width: 245px; height: 235px; z-index: 22; transform: rotate(-11deg); object-fit: cover;
+  }
+  .m17-travel-paper-scrap { left: 270px; right: auto; top: 398px; bottom: auto; width: 180px; height: 145px; z-index: 21; transform: rotate(4deg); }
+  .travel-ticket.m17-travel-ticket {
+    left: 570px; right: auto; top: 330px; width: 420px; height: 150px; z-index: 25; transform: rotate(1deg); filter: sepia(.40) saturate(.76) brightness(1.04) contrast(1.04);
+  }
+  .m17-travel-paper-sheet::after {
+    display: block; position: absolute; left: 265px; top: 365px; z-index: 32; width: 270px;
+    content: 'Полезные заметки\A и любимые места  ♡'; white-space: pre; color: rgba(82,64,62,.82);
+    font-family: var(--script); font-size: 18px; line-height: 1.16; text-align: center; transform: rotate(-4deg); pointer-events: none;
+  }
+  .m17-kpop-paper-sheet .paper-label span { display: inline-block; margin-left: 14px; font-size: 30px; line-height: 1; transform: rotate(-10deg); opacity: .68; }
+  .kpop-doodle.m17-kpop-doodle-star { display: none; }
+
+  .m17-kpop-paper-scrap { display: none; }
+  .contact::before {
+    position: absolute; top: -62px; right: 92px; z-index: 31; width: 150px; height: 165px; content: '';
+    background: url('assets/home/m1.7/kpop-polaroid-small.webp') center / contain no-repeat; transform: rotate(7deg); pointer-events: none;
+  }
+  .contact::after {
+    position: absolute; top: -8px; right: 220px; z-index: 30; width: 112px; height: 102px; content: '';
+    background: url('assets/home/m1.7/kpop-postage-cluster.webp') center / contain no-repeat; transform: rotate(-5deg); pointer-events: none;
+  }
+}
+/* END M17-TASK 64-final-source-sync */
