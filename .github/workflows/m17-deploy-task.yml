@@ -23,11 +23,17 @@ jobs:
           fetch-depth: 0
 
       - name: Load task
+        id: load-task
         shell: bash
         run: |
           set -euo pipefail
-          TASK_FILE="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^.github/m17-deploy-tasks/.*\.json$' | tail -1)"
-          test -n "$TASK_FILE"
+          TASK_FILE="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^.github/m17-deploy-tasks/.*\.json$' | tail -1 || true)"
+          if [ -z "$TASK_FILE" ] || [ ! -f "$TASK_FILE" ]; then
+            echo 'No active M1.7 tuning task in this commit; nothing to apply.'
+            echo 'task_file=' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "task_file=$TASK_FILE" >> "$GITHUB_OUTPUT"
           cp "$TASK_FILE" /tmp/m17-deploy-task.json
           python3 - <<'PY'
           import json
@@ -39,6 +45,7 @@ jobs:
           PY
 
       - name: Apply CSS tuning and source commit marker
+        if: steps.load-task.outputs.task_file != ''
         shell: bash
         run: |
           set -euo pipefail
@@ -64,6 +71,7 @@ jobs:
           PY
 
       - name: Commit public preview update
+        if: steps.load-task.outputs.task_file != ''
         shell: bash
         run: |
           set -euo pipefail
